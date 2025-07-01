@@ -22,6 +22,20 @@
         text-align: center;
         
     }
+    #gopal,#subash{
+        margin-top: 20px;
+        margin-left: 130px;
+        width: 200px;
+      
+
+    }
+    #info2,#info3{
+        
+        box-shadow: 0 0 3px black;
+        text-transform: uppercase;
+        height: max-content;
+        letter-spacing: 2px;
+    }
 
 }
 @media screen and (min-width:600px){
@@ -44,6 +58,9 @@
         text-align: center;
         
     }
+    #gopal{
+        margin-left: 200px;
+    }
 }
 @media screen and (min-width:748px) {
     #h{
@@ -65,6 +82,14 @@
         margin-left: 150px;
         text-align: center;
         
+    }
+    #gopal,#subash{
+        margin-left: 600px;
+    }
+    #info2,#info3{
+        box-shadow: 0 0 3px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        letter-spacing: 3px;
     }
 }
 @media screen and (min-width:1024px) {
